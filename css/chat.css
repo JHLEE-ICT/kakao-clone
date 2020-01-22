@@ -20,7 +20,8 @@
 }
 
 .chats-body {
-  background-image: url("../images/chatBg.png");
+  background-image: url("../images/chatBg.jpg");
+  background-size: contain;
   min-height: 1000vh;
 }
 
@@ -115,14 +116,14 @@
 
 .chat__messages .chat__timestamp {
   background-color: white;
-  font-size: 12px;
+  font-size: 20px;
   padding: 5px 10px;
   border-radius: 10px;
   margin-bottom: 30px;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 8px 16px -8px,
     rgba(0, 0, 0, 0.024) 0px -6px 16px -6px;
   text-transform: uppercase;
-  font-weight: 700;
+  font-family: "Lobster", cursive;
 }
 
 .message {
@@ -155,7 +156,7 @@
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
     rgba(0, 0, 0, 0.3) 0px 8px 16px -8px,
     rgba(0, 0, 0, 0.024) 0px -6px 16px -6px;
-  animation: spin 1s linear infinite;
+  animation: spin 1.5s linear infinite;
 }
 
 .message .message__bubble {
@@ -166,7 +167,7 @@
     rgba(0, 0, 0, 0.024) 0px -6px 16px -6px;
   padding: 10px 20px;
   border-radius: 20px;
-  color: white;
+  color: rgb(64, 65, 64);
   font-weight: 600;
 }
 
@@ -179,12 +180,12 @@
 
 .incoming-message .message__bubble {
   border-bottom-left-radius: 0px;
-  background-image: linear-gradient(to right, #7b4397, #dc2430);
+  background-image: linear-gradient(to left, #83a4d4, #b6fbff);
 }
 
 .sent-message .message__bubble {
   border-bottom-right-radius: 0px;
-  background-image: linear-gradient(to left, #00c6ff, #0072ff);
+  background-image: linear-gradient(to left, #ddd6f3, #faaca8);
 }
 
 @keyframes incomingAnim {
