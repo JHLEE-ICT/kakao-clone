@@ -1,3 +1,26 @@
+.friends-body {
+  min-height: 1000vh;
+}
+
+.top-header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: white;
+  z-index: 2;
+  padding: 5px 0px;
+}
+
+.top-header .header,
+.top-header .status-bar {
+  padding-right: 40px;
+}
+
+.friends {
+  padding: 10px 0px;
+  padding-top: 110px;
+}
+
 .friends .friends__plus {
   margin: 20px 0px;
   padding: 20px 0px;

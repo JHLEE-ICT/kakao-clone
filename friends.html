@@ -11,38 +11,41 @@
     <link rel="stylesheet" href="css/styles.css" />
     <title>Friends | KaKao Clone</title>
   </head>
-  <body>
-    <div class="status-bar">
-      <div class="status-bar__column">
-        <span class="status-bar__clock">13:27</span>
+  <body class="friends-body">
+    <div class="top-header">
+      <div class="status-bar">
+        <div class="status-bar__column">
+          <span class="status-bar__clock">13:27</span>
+        </div>
+        <div class="status-bar__column">
+          <i class="fas fa-clock"></i>
+          <i class="fas fa-volume-mute"></i>
+          <i class="fas fa-wifi"></i>
+          <span class="status-bar__battery-level">100%</span>
+          <i class="fas fa-battery-full"></i>
+        </div>
       </div>
-      <div class="status-bar__column">
-        <i class="fas fa-clock"></i>
-        <i class="fas fa-volume-mute"></i>
-        <i class="fas fa-wifi"></i>
-        <span class="status-bar__battery-level">100%</span>
-        <i class="fas fa-battery-full"></i>
-      </div>
+      <header class="header">
+        <div class="header__header-column">
+          <h1 class="header__title">Friends</h1>
+        </div>
+        <div class="header__header-column">
+          <span class="header__icon">
+            <i class="fas fa-search"></i>
+          </span>
+          <span class="header__icon">
+            <i class="fas fa-cog"></i>
+          </span>
+        </div>
+      </header>
     </div>
-    <header class="header">
-      <div class="header__header-column">
-        <h1 class="header__title">Friends</h1>
-      </div>
-      <div class="header__header-column">
-        <span class="header__icon">
-          <i class="fas fa-search"></i>
-        </span>
-        <span class="header__icon">
-          <i class="fas fa-cog"></i>
-        </span>
-      </div>
-    </header>
+
     <main class="friends">
       <header class="friends__header">
         <div class="friends__friend friend friend--lg">
           <div class="friend__column">
             <img
-              src="images/avatar.jpg"
+              src="images/profile.jpg"
               alt=""
               class="g-avatar friend__avatar"
             />
@@ -58,23 +61,10 @@
         </div>
       </header>
       <div class="friends__plus">
-        <h5 class="friends__title">생일인 친구</h5>
-        <div class="friends__friend friend">
-          <div class="friend__column">
-            <img src="images/avatar.jpg" alt="" class="friend__avatar" />
-            <div class="friend__content">
-              <span class="friend__name">
-                친구의 생일을 확인해 보세요!
-              </span>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="friends__plus">
         <h5 class="friends__title">Plus friend</h5>
         <div class="friends__friend friend">
           <div class="friend__column">
-            <img src="images/avatar.jpg" alt="" class="friend__avatar" />
+            <img src="images/plusfriend.png" alt="" class="friend__avatar" />
             <div class="friend__content">
               <span class="friend__name">
                 Plus Friend
@@ -85,15 +75,15 @@
       </div>
       <ul class="friends__list">
         <h5 class="friends__title">Friends 14</h5>
-        <li class="friends__friend friend">
+        <li class="friends__friend friend friend-list">
           <div class="friend__column">
-            <img src="images/avatar.jpg" alt="" class="friend__avatar" />
+            <img src="images/apeach.PNG" alt="" class="friend__avatar" />
             <div class="friend__content">
               <span class="friend__name">
-                JHLEE
+                Apeach
               </span>
               <span class="friend__status">
-                hello!
+                어피치
               </span>
             </div>
           </div>
@@ -101,6 +91,121 @@
             <div class="friend__now-listening">
               <span>지독하게 - FTISLAND</span>
               <i class="fas fa-play"></i>
+            </div>
+          </div>
+        </li>
+        <li class="friends__friend friend  friend-list">
+          <div class="friend__column">
+            <img src="images/ryan.PNG" alt="" class="friend__avatar" />
+            <div class="friend__content">
+              <span class="friend__name">
+                Ryan
+              </span>
+              <span class="friend__status">
+                라이언
+              </span>
+            </div>
+          </div>
+          <div class="friend__column">
+            <div class="friend__now-listening">
+              <span>Feel Special - TWICE(트와이스)</span>
+              <i class="fas fa-play"></i>
+            </div>
+          </div>
+        </li>
+        <li class="friends__friend friend friend-list">
+          <div class="friend__column">
+            <img src="images/muzi.PNG" alt="" class="friend__avatar" />
+            <div class="friend__content">
+              <span class="friend__name">
+                Muzi
+              </span>
+              <span class="friend__status">
+                무지
+              </span>
+            </div>
+          </div>
+        </li>
+        <li class="friends__friend friend friend-list">
+          <div class="friend__column">
+            <img src="images/frodo.png" alt="" class="friend__avatar" />
+            <div class="friend__content">
+              <span class="friend__name">
+                Frodo
+              </span>
+              <span class="friend__status">
+                프로도
+              </span>
+            </div>
+          </div>
+          <div class="friend__column">
+            <div class="friend__now-listening">
+              <span>Blueming - 아이유 (IU)</span>
+              <i class="fas fa-play"></i>
+            </div>
+          </div>
+        </li>
+        <li class="friends__friend friend friend-list">
+          <div class="friend__column">
+            <img src="images/neo.png" alt="" class="friend__avatar" />
+            <div class="friend__content">
+              <span class="friend__name">
+                Neo
+              </span>
+              <span class="friend__status">
+                네오
+              </span>
+            </div>
+          </div>
+          <div class="friend__column">
+            <div class="friend__now-listening">
+              <span>2002 - Anne-Marie</span>
+              <i class="fas fa-play"></i>
+            </div>
+          </div>
+        </li>
+        <li class="friends__friend friend friend-list">
+          <div class="friend__column">
+            <img src="images/tube.png" alt="" class="friend__avatar" />
+            <div class="friend__content">
+              <span class="friend__name">
+                Tube
+              </span>
+              <span class="friend__status">
+                튜브
+              </span>
+            </div>
+          </div>
+        </li>
+        <li class="friends__friend friend friend-list">
+          <div class="friend__column">
+            <img src="images/jay-g.png" alt="" class="friend__avatar" />
+            <div class="friend__content">
+              <span class="friend__name">
+                Jay-G
+              </span>
+              <span class="friend__status">
+                제이지
+              </span>
+            </div>
+          </div>
+          <div class="friend__column">
+            <div class="friend__now-listening">
+              <span>아무노래 - 지코 (ZICO)</span>
+              <i class="fas fa-play"></i>
+            </div>
+          </div>
+        </li>
+        <li class="friends__friend friend friend-list">
+          <div class="friend__column">
+            <img src="images/confriends.PNG" alt="" class="friend__avatar" />
+            <div class="friend__content">
+              <span class="friend__name">
+                CON
+              </span>
+              <span class="friend__status">
+                콘
+              </span>
             </div>
           </div>
         </li>

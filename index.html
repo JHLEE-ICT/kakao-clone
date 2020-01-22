@@ -11,51 +11,80 @@
     <link rel="stylesheet" href="css/styles.css" />
     <title>Chats | KaKao Clone</title>
   </head>
-  <body>
-    <div class="status-bar">
-      <div class="status-bar__column">
-        <span class="status-bar__clock">13:27</span>
+  <body class="friends-body">
+    <div class="top-header">
+      <div class="status-bar">
+        <div class="status-bar__column">
+          <span class="status-bar__clock">13:27</span>
+        </div>
+        <div class="status-bar__column">
+          <i class="fas fa-clock"></i>
+          <i class="fas fa-volume-mute"></i>
+          <i class="fas fa-wifi"></i>
+          <span class="status-bar__battery-level">100%</span>
+          <i class="fas fa-battery-full"></i>
+        </div>
       </div>
-      <div class="status-bar__column">
-        <i class="fas fa-clock"></i>
-        <i class="fas fa-volume-mute"></i>
-        <i class="fas fa-wifi"></i>
-        <span class="status-bar__battery-level">100%</span>
-        <i class="fas fa-battery-full"></i>
-      </div>
+      <header class="header">
+        <div class="header__header-column">
+          <h1 class="header__title">Chats</h1>
+        </div>
+        <div class="header__header-column">
+          <span class="header__icon">
+            <i class="fas fa-search"></i>
+          </span>
+          <span class="header__icon">
+            <i class="far fa-comment"></i>
+          </span>
+          <span class="header__icon">
+            <a href="settings.html">
+              <i class="fas fa-cog"></i>
+            </a>
+          </span>
+        </div>
+      </header>
     </div>
-    <header class="header">
-      <div class="header__header-column">
-        <h1 class="header__title">Chats</h1>
-      </div>
-      <div class="header__header-column">
-        <span class="header__icon">
-          <i class="fas fa-search"></i>
-        </span>
-        <span class="header__icon">
-          <i class="far fa-comment"></i>
-        </span>
-        <span class="header__icon">
-          <a href="settings.html">
-            <i class="fas fa-cog"></i>
-          </a>
-        </span>
-      </div>
-    </header>
+
     <main class="chats">
       <ul class="chats__list">
-        <li class="chats__chat chat">
+        <li class="chats__chat chat talk-list">
           <a href="chat.html">
             <div class="chats__chat friend friend--lg">
               <div class="friend__column">
                 <img
-                  src="images/avatar.jpg"
+                  src="images/ryan.PNG"
                   alt=""
                   class="m-avatar friend__avatar"
                 />
                 <div class="friend__content">
                   <span class="friend__name">
-                    JHLEE
+                    Ryan
+                  </span>
+                  <span class="friend__bottom-text">
+                    thank you💖
+                  </span>
+                </div>
+              </div>
+              <div class="friend__column">
+                <span class="chat__timestamp">
+                  6:48 PM
+                </span>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li class="chats__chat chat talk-list">
+          <a href="chat.html">
+            <div class="chats__chat friend friend--lg">
+              <div class="friend__column">
+                <img
+                  src="images/tube.PNG"
+                  alt=""
+                  class="m-avatar friend__avatar"
+                />
+                <div class="friend__content">
+                  <span class="friend__name">
+                    Tube
                   </span>
                   <span class="friend__bottom-text">
                     hello!
@@ -64,7 +93,33 @@
               </div>
               <div class="friend__column">
                 <span class="chat__timestamp">
-                  Jan 15
+                  Jan 23
+                </span>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li class="chats__chat chat talk-list">
+          <a href="chat.html">
+            <div class="chats__chat friend friend--lg">
+              <div class="friend__column">
+                <img
+                  src="images/neo.PNG"
+                  alt=""
+                  class="m-avatar friend__avatar"
+                />
+                <div class="friend__content">
+                  <span class="friend__name">
+                    Neo
+                  </span>
+                  <span class="friend__bottom-text">
+                    bye🖐🖐
+                  </span>
+                </div>
+              </div>
+              <div class="friend__column">
+                <span class="chat__timestamp">
+                  Dec 25, 2019
                 </span>
               </div>
             </div>

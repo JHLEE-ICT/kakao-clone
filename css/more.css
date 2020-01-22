@@ -1,3 +1,7 @@
+.more {
+  padding-top: 100px;
+}
+
 .more .more__btn-list,
 .more .more__suggestions-list {
   margin: 30px 0px;
